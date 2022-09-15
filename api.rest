@@ -1,0 +1,11 @@
+GET http://localhost:8080/
+###
+POST http://localhost:8080/add
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name" : "Aravind" ,
+    "age" : 22 , 
+    "email" : "aravind@gmail.com" 
+}

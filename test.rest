@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/students/add
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "Srikar Alladi" ,
+    "age" : 20 ,
+    "email" : "Alladisrikar@gmail.com"
+}
